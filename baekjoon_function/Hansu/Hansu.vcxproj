@@ -20,11 +20,10 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{5A733D3D-AAB9-402D-A7DD-0F51B3F44776}</ProjectGuid>
+    <ProjectGuid>{B4D39D8B-C17C-4504-B0B7-F60C3667BD6F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Sum</RootNamespace>
+    <RootNamespace>Hansu</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>Sum</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="sum.c" />
+    <ClCompile Include="hansu.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
